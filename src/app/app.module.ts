@@ -6,6 +6,8 @@ import { RouterModule, PreloadAllModules } from '@angular/router';
 import { MaterialModule } from '@angular/material';
 import { removeNgStyles, createNewHosts, createInputTransfer } from '@angularclass/hmr';
 
+import { MyFooterModule } from './shared/components/myfooter/myfooter.module'
+
 /*
  * Platform and Environment providers/directives/pipes
  */
@@ -49,6 +51,7 @@ type StoreType = {
     BrowserModule,
     FormsModule,
     HttpModule,
+    MyFooterModule,
     MaterialModule.forRoot(),
     RouterModule.forRoot(ROUTES, { useHash: true, preloadingStrategy: PreloadAllModules })
   ],

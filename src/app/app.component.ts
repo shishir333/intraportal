@@ -51,6 +51,7 @@ import { AppState } from './app.service';
     <footer>
       <span>WebPack Angular 2 Starter by <a [href]="url">@ami0011</a></span>
     </footer>
+    <myfooter></myfooter>
   `
 })
 export class AppComponent {
