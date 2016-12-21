@@ -6,6 +6,9 @@ import { RouterModule, PreloadAllModules } from '@angular/router';
 import { MaterialModule } from '@angular/material';
 import { removeNgStyles, createNewHosts, createInputTransfer } from '@angularclass/hmr';
 
+//MyFooter insertion
+import {MyFooterComponent} from './shared/components/myfooter/myfooter.component';
+
 /*
  * Platform and Environment providers/directives/pipes
  */
@@ -43,6 +46,7 @@ type StoreType = {
     AboutComponent,
     HomeComponent,
     NoContentComponent,
+    MyFooterComponent,
     XLarge
   ],
   imports: [ // import Angular's modules

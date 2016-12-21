@@ -3,6 +3,8 @@ import { HomeComponent } from './pages/home';
 import { AboutComponent } from './pages/about';
 import { NoContentComponent } from './pages/no-content';
 
+import {FooterComponent} from './shared/components/footer';
+
 import { DataResolver } from './app.resolver';
 
 
