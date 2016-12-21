@@ -1,0 +1,10 @@
+$bootstrap-sass-asset-helper: true;
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+html, body{
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+span.active {
+  background-color: gray;
+}

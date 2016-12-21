@@ -1,0 +1,28 @@
+
+//$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$bootstrap-sass-asset-helper: true;
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "~@angular/material/core/theming/prebuilt/indigo-pink.scss";
+
+@import '~@angular/material/core/theming/all-theme';
+
+// Include non-theme styles for core.
+@include md-core();
+
+// Define a theme.
+$primary: md-palette($md-indigo);
+$accent:  md-palette($md-blue-grey, A200, A100, A400);
+
+$theme: md-light-theme($primary, $accent);
+
+// Include all theme styles for the components.
+@include angular-material-theme($theme);
+
+html, body{
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+span.active {
+  background-color: gray;
+}
