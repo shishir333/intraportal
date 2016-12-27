@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 
+
 @Component(
     {
         selector: 'myfooter',
-        templateUrl: 'myfooter.component.html'
+        templateUrl: 'myfooter.component.html',
+        styleUrls: ["myfooter.component.css"]
     }
 )
 

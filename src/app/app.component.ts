@@ -47,10 +47,6 @@ import { AppState } from './app.service';
     </main>
 
     <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
-
-    <footer>
-      <span>WebPack Angular 2 Starter by <a [href]="url">@ami0011</a></span>
-    </footer>
     <myfooter></myfooter>
   `
 })

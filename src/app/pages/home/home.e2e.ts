@@ -19,6 +19,4 @@ describe('App', () => {
     let result  = 'Your Content Here';
     expect(subject).toEqual(result);
   });
-
-
 });
